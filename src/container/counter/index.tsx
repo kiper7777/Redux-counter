@@ -18,6 +18,9 @@ export function Counter() {
       <button className="button" onClick={() => dispatch(increment())}>
         +
       </button>
+      <button className="button" onClick={() => dispatch(increment())}>
+        +
+      </button>
     </div>
   );
 }
